@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ANGULAR PROJECT</title>
+</head>
+<body>
+  Enter first number:
+  <input type = "number" placeholder = "enter 1number" [(ngModel)] = "firstn">
+  <br>
+  Enter second number:
+  <input type = "number" placeholder = "enter 2number" [(ngModel)] = "secondn">
+  <br>
+  Result:
+  <input type = "number" [(ngModel)] = "result">
+  <br>
+  <button (click) = "add()">+ </button>
+  <button (click) =  "sub()">-</button>
+  <button (click) = "mul()">*</button>
+  <button (click) = "div()">/</button>
+</body>
+</html>
